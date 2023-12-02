@@ -7,8 +7,8 @@ const Counter = () => {
 
     return (
         <div>
-            <p>Count: {counter}</p>
-            <button onClick={() => setCounter(counter + 1)}>Up</button>
+            <p className="text-red-800">Count: {counter}</p>
+            <button className="bg-red-800 p-4" onClick={() => setCounter(counter + 1)}>Up</button>
             <button onClick={() => setCounter(counter - 1)}>Down</button>
         </div>
     );
